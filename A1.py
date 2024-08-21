@@ -4,7 +4,7 @@ import google.generativeai as genai
 #title for the streamlit
 st.title("welcome to chatbot intergrated with gemini ai")
 
-#ci=onfigure API key for google Generative AI
+#configure API key for google Generative AI
 genai.configure(api_key="AIzaSyCnNtq5lfYpOeTX6w8eWXd7ExA5nO-Q-R0")
 
 #input field for user question
